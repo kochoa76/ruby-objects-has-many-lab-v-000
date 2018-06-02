@@ -18,6 +18,7 @@ end
   def add_post_by_title(title)
    name =  post.new(title)
    name.author = self
+   @posts<<name 
   end 
   
 
