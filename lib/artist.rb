@@ -30,7 +30,7 @@ end
 
   def self.song_count
    self.all.count do |artist| 
-   self.song==self.song
+   self==self 
  end 
  
 end 
