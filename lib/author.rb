@@ -10,8 +10,9 @@ end
     @posts 
   end 
   
-  def add_post(post)
-    post.author = self 
+  def add_post(title)
+   name =  post.new(title)
+   name.author = self 
     @posts<<post 
   end 
   
