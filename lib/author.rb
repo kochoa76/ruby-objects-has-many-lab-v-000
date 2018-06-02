@@ -10,7 +10,11 @@ end
     @posts 
   end 
   
-  def add_post(title)
+  def add_post(post)
+    post.author =self 
+  end 
+  
+  def add_post_by_title(title)
    name =  post.new(title)
    name.author = self
   end 
