@@ -8,6 +8,10 @@ class Post
     @author= author 
   end 
   
+  def author_name
+    name = author.new(author_name)
+  end 
+  
  
  
   
