@@ -12,8 +12,7 @@ end
   
   def add_post(title)
    name =  post.new(title)
-   name.author = self 
-    @posts<<post 
+   name.author = self
   end 
   
 
