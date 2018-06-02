@@ -9,8 +9,13 @@ class Post
   end 
   
   def author_name
-    name = author.new(author_name)
+   if author.name 
+     author.name = author_name 
+   else 
+   nil
   end 
+end 
+
   
  
  
