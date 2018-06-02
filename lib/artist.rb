@@ -29,7 +29,10 @@ class Artist
 end 
 
   def self.song_count
-   self.all.count 
+   self.all.count do |artist| 
+   self ==self 
+ end 
+ 
 end 
   
   
