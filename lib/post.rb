@@ -9,8 +9,8 @@ class Post
   end 
   
   def author_name
-   if author.name 
-     author.name = author_name 
+   if post.name =author.name  
+    post.name.author 
    else 
    nil
   end 
