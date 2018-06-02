@@ -9,6 +9,8 @@ end
   def posts 
     @posts 
   end 
+  
+  def add_
 
 
 end 
