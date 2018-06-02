@@ -11,7 +11,8 @@ end
   end 
   
   def add_post(post)
-    self.post = author  
+    post.author = self 
+    @posts<<post
   end 
   
   def add_post_by_title(title)
