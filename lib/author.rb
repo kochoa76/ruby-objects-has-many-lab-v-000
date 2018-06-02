@@ -10,7 +10,10 @@ end
     @posts 
   end 
   
-  def add_
+  def add_post(post)
+    post.author = self 
+  end 
+  
 
 
 end 
