@@ -21,6 +21,8 @@ end
    @posts<<name
   end 
   
+  def self.post_count
+  
 
 
 end 
