@@ -8,8 +8,7 @@ class Artist
   end 
   
   def songs
-    Song.all.select do |song| 
-    song.artist 
+    @@all.song 
   end 
   end 
 
