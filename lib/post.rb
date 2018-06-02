@@ -8,7 +8,7 @@ class Post
   end 
   
   def author
-   post.author= Author 
+   self.author= Author 
  end 
  
   
